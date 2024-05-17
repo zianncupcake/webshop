@@ -15,11 +15,13 @@ import { MatToolbarModule } from '@angular/material/toolbar'
 import { MatTableModule } from '@angular/material/table'
 import { MatBadgeModule } from '@angular/material/badge'
 import { MatSnackBarModule } from '@angular/material/snack-bar'
-import { MatExpansionModule } from '@angular/material/expansion'
+import { MatExpansionModule } from '@angular/material/expansion';
+import { HeaderComponent } from './components/header/header.component'
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
