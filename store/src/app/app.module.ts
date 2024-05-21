@@ -16,12 +16,16 @@ import { MatTableModule } from '@angular/material/table'
 import { MatBadgeModule } from '@angular/material/badge'
 import { MatSnackBarModule } from '@angular/material/snack-bar'
 import { MatExpansionModule } from '@angular/material/expansion';
-import { HeaderComponent } from './components/header/header.component'
+import { HeaderComponent } from './components/header/header.component';
+import { HomeComponent } from './components/pages/home/home.component';
+import { ProductsHeaderComponent } from './components/pages/home/components/products-header/products-header.component'
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
+    HomeComponent,
+    ProductsHeaderComponent
   ],
   imports: [
     BrowserModule,
