@@ -17,6 +17,7 @@ export class HomeComponent implements OnInit {
 
   onColumnsCountChange(colsNum: number): void {
     this.cols = colsNum
+    this.rowHeight = ROWS_HEIGHT[this.cols]
   }
 
   onShowCategory(newCategory: string): void {
