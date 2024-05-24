@@ -3,6 +3,7 @@
     <div>
       <button mat-button [matMenuTriggerFor]="sortByMenu">
         Sort by {{ sort }}
+        <mat-icon>expand_more</mat-icon>
       </button>
       <mat-menu #sortByMenu="matMenu">
         <button (click)="onSortUpdated('desc')" mat-menu-item>desc</button>
@@ -13,7 +14,6 @@
       <div>
         <button mat-button [matMenuTriggerFor]="menu">
           Show {{itemsShowCount}}
-          <mat-icon>expand_more</mat-icon>
         </button>
         <mat-menu #menu="matMenu">
           <button (click)="onItemsUpdated(12)" mat-menu-item>12</button>
