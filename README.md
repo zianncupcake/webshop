@@ -15,3 +15,7 @@ https://github.com/zianncupcake/webshop/assets/100258157/1cb9affd-224a-476a-bacc
 
 
 Adding to Cart and Checkout
+
+
+https://github.com/zianncupcake/webshop/assets/100258157/bd5a44fd-d505-4fd0-8324-c00adc274e96
+
